@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-image: url('../img/retangulo.png');
+    background-repeat: no-repeat; /*não repete a imagem*/
+    background-size: cover; /*cobre todo o espaço*/
+    /*background-position: center; alinha ao centro*/
+    width: 100%; /*ocupa 100% da tela*/
+    height: 100vh; /*100% do viewport*/ 
+    padding-top: 5%; /*usado para deslocar o whitebox*/
+}
+
+.whitebox{
+    background-color: #ffffff;
+    width: 36%;
+    margin: 0 auto; /*centraliza o box no container*/
+    border-radius: 5%;
+}
+
+.whitebox__img{
+    display: flex;
+    justify-content: center;
+    padding: 8% 8% 5% 8%;
+}
+
+.whitebox__img img{
+    width: 175px;
+    height: auto;
+}
+
+.whitebox__text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.whitebox__text h1{
+    color: #5D1277;
+    font-size: 1.7rem;
+    padding-bottom: 7%;
+}
+
+.whitebox__text h4{
+    color: #4F4F4F;
+    font-size: 1.1rem;
+}
+
+.whitebox__social-media{
+    display: flex;
+    justify-content: space-around;
+    padding: 17% 8% 8% 8%;
+}
+
+.whitebox__social-media img{
+    width:70px;
+    height: auto;
+}
